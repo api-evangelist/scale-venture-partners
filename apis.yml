@@ -1,0 +1,87 @@
+aid: scale-venture-partners
+name: Scale Venture Partners
+description: >-
+  Scale Venture Partners (ScaleVP) is an early-stage venture capital firm based
+  in Foster City, California, that invests primarily at Series A and Series B in
+  founders applying AI to how businesses actually work. The firm traces its
+  origins to 2000 as BA Venture Partners, the venture arm of Bank of America,
+  and became an independent partnership in 2007. Scale focuses on AI and B2B
+  software spanning applications, developer tools and infrastructure, and
+  security, and leads roughly 80% of the rounds it joins. Initial checks
+  typically range from $5M to $50M, sized to the round, and the firm looks for
+  signed customers and repeatable demand (commonly $500K–$5M ARR) rather than
+  a fixed revenue bar. Scale reports about $2.8B in assets under management and
+  is currently deploying its $900M Fund VIII, raised in 2022. It invests across
+  North America, Europe, and Israel, and pairs capital with a Go-To-Market
+  advisory bench of CROs, CMOs, and CFOs. Scale has produced 11 IPOs — among
+  the highest rates for early-stage firms — with notable investments including
+  DocuSign, Box, HubSpot, BILL, and JFrog.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://www.scalevp.com/favicon.ico
+tags:
+  - Venture Capital
+  - Series A
+  - Series B
+  - Early Stage
+  - Artificial Intelligence
+  - B2B Software
+  - Developer Tools
+  - Infrastructure
+  - Security
+  - North America
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.scalevp.com/
+  - type: Portfolio
+    url: https://www.scalevp.com/portfolio
+  - type: Portfolio
+    url: portfolio/scale-venture-partners-portfolio.yml
+  - type: Team
+    url: https://www.scalevp.com/team
+  - type: Team
+    url: team/scale-venture-partners-team.yml
+  - type: InvestmentThesis
+    url: https://www.scalevp.com/approach
+  - type: Blog
+    url: https://www.scalevp.com/perspectives
+  - type: News
+    url: https://www.scalevp.com/press
+  - type: Pitch
+    url: https://www.scalevp.com/frequently-asked-questions
+  - type: Contact
+    url: https://www.scalevp.com/team
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/scale-venture-partners
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/scale-venture-partners
+  - type: Twitter
+    url: https://twitter.com/scalevp
+  - type: Features
+    data:
+      - 'Stage: Series A and Series B (early stage); leads ~80% of rounds'
+      - 'Typical check: $5M–$50M initial, sized to the round'
+      - 'Traction sought: signed customers and repeatable demand, ~$500K–$5M ARR'
+      - 'Sectors: AI and B2B software — applications, developer tools and infrastructure, security'
+      - 'Geography: North America, Europe, Israel (Foster City, CA based)'
+      - 'AUM: ~$2.8B (self-reported); currently deploying Fund VIII ($900M, 2022)'
+      - 'Founded: 2000 (as BA Venture Partners); independent since 2007'
+      - 'HQ: Foster City, California'
+      - 'Track record: 11 IPOs; notable investments DocuSign, Box, HubSpot, BILL, JFrog'
+    sources:
+      - https://www.scalevp.com/frequently-asked-questions
+      - https://www.scalevp.com/about
+      - https://en.wikipedia.org/wiki/Scale_Venture_Partners
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Scale Venture Partners
+    url: https://www.scalevp.com/

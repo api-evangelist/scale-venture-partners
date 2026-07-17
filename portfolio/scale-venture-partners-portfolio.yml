@@ -1,0 +1,455 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.scalevp.com/portfolio
+summary:
+  portfolio_total: 42
+  in_network: 24
+  api_providers: 17
+  missing: 18
+  stubs_created: 0
+companies:
+- name: GC AI
+  url: https://gc.ai/
+  description: AI platform for in-house legal teams — contract review, legal research, and drafting.
+  sector: ai-apps
+  stage: series-a
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: gc-ai
+- name: Bland
+  url: https://www.bland.ai/
+  description: AI phone-calling platform for building programmable voice agents.
+  sector: ai-apps
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: bland-ai
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: BILL
+  url: https://www.bill.com/
+  description: Financial operations platform for accounts payable, receivable, and spend for SMBs.
+  sector: fintech
+  stage: ipo
+  status: ipo
+  source: https://www.scalevp.com/portfolio
+  slug: bill
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: JFrog
+  url: https://jfrog.com/
+  description: DevOps platform for software artifact management and secure release automation.
+  sector: devtools
+  stage: ipo
+  status: ipo
+  source: https://www.scalevp.com/portfolio
+  slug: jfrog
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: HubSpot
+  url: https://www.hubspot.com/
+  description: CRM, marketing, sales, and service software platform for growing businesses.
+  sector: b2b-software
+  stage: ipo
+  status: ipo
+  source: https://www.scalevp.com/portfolio
+  slug: hubspot
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Box
+  url: https://www.box.com/
+  description: Cloud content management and collaboration platform for the enterprise.
+  sector: b2b-software
+  stage: ipo
+  status: ipo
+  source: https://www.scalevp.com/portfolio
+  slug: box
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Paraform
+  url: https://www.paraform.com/
+  description: Recruiter-first marketplace matching companies with expert recruiters using AI tools.
+  sector: ai-apps
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: paraform
+- name: Range
+  url: https://www.range.com/
+  description: AI-powered wealth management platform for financial planning and advice.
+  sector: fintech
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: range
+- name: Intercom
+  url: https://www.intercom.com/
+  description: AI-first customer service and support platform.
+  sector: b2b-software
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: intercom
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: CodeRabbit
+  url: https://www.coderabbit.ai/
+  description: AI-powered code review that automates pull-request feedback for developers.
+  sector: devtools
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: coderabbit
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Hello Patient
+  url: https://www.hellopatient.com/
+  description: AI-powered end-to-end patient communications across voice, text, and chat for medical practices.
+  sector: healthcare
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: hello-patient
+- name: Inspiren
+  url: https://www.inspiren.com/
+  description: Hardware and software giving senior-living care teams a real-time view of resident behavior.
+  sector: healthcare
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: inspiren
+- name: Abacum
+  url: https://www.abacum.ai/
+  description: AI-native FP&A platform for finance teams — planning, forecasting, and reporting.
+  sector: fintech
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: abacum
+- name: Galileo
+  url: https://galileo.ai/
+  description: AI evaluation and observability platform for building and monitoring reliable AI applications.
+  sector: ai-infrastructure
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: evals
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Fixify
+  url: https://www.fixify.com/
+  description: AI-native IT help-desk platform blending automation with human analysts.
+  sector: infrastructure
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: fixify
+- name: Unwrap
+  url: https://www.unwrap.ai/
+  description: AI-powered customer-feedback intelligence platform using natural language processing.
+  sector: ai-apps
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: unwrap
+- name: QA Wolf
+  url: https://www.qawolf.com/
+  description: End-to-end automated QA testing delivered as a managed service.
+  sector: devtools
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: qa-wolf
+- name: Motion
+  url: https://www.usemotion.com/
+  description: AI project management and calendar tool that automatically plans and schedules work.
+  sector: b2b-software
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: motion
+- name: Klarity
+  url: https://www.klarity.ai/
+  description: AI-powered document process automation for accounting and compliance workflows.
+  sector: ai-apps
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: klarity
+- name: Freed
+  url: https://www.getfreed.ai/
+  description: AI medical scribe that transcribes clinician visits and writes clinical notes.
+  sector: healthcare
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: freed-ai
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Sixfold
+  url: https://www.sixfold.ai/
+  description: AI platform that automates insurance underwriting submission review.
+  sector: ai-apps
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: sixfold
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Lumos
+  url: https://www.lumos.com/
+  description: Identity governance and access management platform for the enterprise.
+  sector: security
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: lumos
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Monto
+  url: https://montopay.com/
+  description: AI connector between ERP systems and customer supplier portals for B2B payments.
+  sector: fintech
+  stage: seed
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: monto
+- name: Tavus
+  url: https://www.tavus.io/
+  description: AI video platform for generating personalized digital humans and conversational video.
+  sector: ai-infrastructure
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: tavus
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Honeycomb
+  url: https://www.honeycomb.io/
+  description: Observability platform for debugging production software and distributed systems.
+  sector: infrastructure
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: honeycomb
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Regie.ai
+  url: https://www.regie.ai/
+  description: AI platform for sales prospecting and outbound engagement.
+  sector: ai-apps
+  stage: unknown
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: regieai
+- name: Viz.ai
+  url: https://www.viz.ai/
+  description: AI-powered care coordination that detects disease and triages patients from medical imaging.
+  sector: healthcare
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: vizai
+- name: Papaya Global
+  url: https://www.papayaglobal.com/
+  description: Global workforce payroll and payments platform.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: papaya-global
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Observe.AI
+  url: https://www.observe.ai/
+  description: Conversation-intelligence and AI agent platform for contact centers.
+  sector: ai-apps
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: observeai
+- name: Airspace Technologies
+  url: https://www.airspace.com/
+  description: Tech-enabled logistics for time-critical and mission-critical shipments.
+  sector: logistics
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: airspace-technologies
+- name: BigID
+  url: https://bigid.com/
+  description: Data security, privacy, and governance platform for discovering and managing sensitive
+    data.
+  sector: security
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: bigid
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Expel
+  url: https://expel.com/
+  description: Managed detection and response (MDR) security operations platform.
+  sector: security
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: expel
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Matillion
+  url: https://www.matillion.com/
+  description: Data integration and transformation platform for cloud data warehouses.
+  sector: infrastructure
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: matillion
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Locus Robotics
+  url: https://locusrobotics.com/
+  description: Autonomous mobile robots for warehouse fulfillment and order picking.
+  sector: robotics
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: locus-robotics
+- name: Solvvy
+  url: https://solvvy.com/
+  description: Conversational AI and self-service support automation platform.
+  sector: ai-apps
+  stage: unknown
+  status: acquired
+  source: https://www.scalevp.com/portfolio
+  in_network: false
+  is_api_provider: false
+  suggested_slug: solvvy
+- name: Motive
+  url: https://gomotive.com/
+  description: AI-powered fleet management and physical operations platform (formerly KeepTruckin).
+  sector: b2b-software
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: motive
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: DroneDeploy
+  url: https://www.dronedeploy.com/
+  description: Reality-capture platform for drone mapping and site inspection across industries.
+  sector: b2b-software
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: dronedeploy
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: CircleCI
+  url: https://circleci.com/
+  description: Continuous integration and delivery (CI/CD) platform for software teams.
+  sector: devtools
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: circleci
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Forter
+  url: https://www.forter.com/
+  description: Real-time fraud prevention and identity-trust platform for digital commerce.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://www.scalevp.com/portfolio
+  slug: forter
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Wrike
+  url: https://www.wrike.com/
+  description: Collaborative work-management and project-management platform.
+  sector: b2b-software
+  stage: growth
+  status: acquired
+  source: https://www.scalevp.com/portfolio
+  slug: wrike
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: WalkMe
+  url: https://www.walkme.com/
+  description: Digital adoption platform guiding users through software workflows.
+  sector: b2b-software
+  stage: ipo
+  status: acquired
+  source: https://www.scalevp.com/portfolio
+  slug: walkme
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: DocuSign
+  url: https://www.docusign.com/
+  description: Electronic signature and agreement-management platform.
+  sector: b2b-software
+  stage: ipo
+  status: ipo
+  source: https://www.scalevp.com/portfolio
+  slug: docusign
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
