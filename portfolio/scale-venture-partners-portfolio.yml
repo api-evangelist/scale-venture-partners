@@ -3,9 +3,9 @@ method: searched
 source: https://www.scalevp.com/portfolio
 summary:
   portfolio_total: 42
-  in_network: 24
-  api_providers: 17
-  missing: 18
+  in_network: 42
+  api_providers: 20
+  missing: 0
   stubs_created: 0
 companies:
 - name: GC AI
@@ -15,9 +15,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gc-ai
+  in_network: true
+  is_api_provider: true
+  slug: gc-ai
+  matched_by: domain
 - name: Bland
   url: https://www.bland.ai/
   description: AI phone-calling platform for building programmable voice agents.
@@ -80,9 +81,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paraform
+  slug: paraform
+  matched_by: domain
 - name: Range
   url: https://www.range.com/
   description: AI-powered wealth management platform for financial planning and advice.
@@ -90,9 +92,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: range
+  slug: range
+  matched_by: name-slug
 - name: Intercom
   url: https://www.intercom.com/
   description: AI-first customer service and support platform.
@@ -122,9 +125,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hello-patient
+  slug: hello-patient
+  matched_by: domain
 - name: Inspiren
   url: https://www.inspiren.com/
   description: Hardware and software giving senior-living care teams a real-time view of resident behavior.
@@ -132,9 +136,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inspiren
+  slug: inspiren
+  matched_by: domain
 - name: Abacum
   url: https://www.abacum.ai/
   description: AI-native FP&A platform for finance teams — planning, forecasting, and reporting.
@@ -142,9 +147,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: abacum
+  slug: abacum
+  matched_by: domain
 - name: Galileo
   url: https://galileo.ai/
   description: AI evaluation and observability platform for building and monitoring reliable AI applications.
@@ -163,9 +169,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fixify
+  slug: fixify
+  matched_by: domain
 - name: Unwrap
   url: https://www.unwrap.ai/
   description: AI-powered customer-feedback intelligence platform using natural language processing.
@@ -173,9 +180,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unwrap
+  slug: unwrap
+  matched_by: domain
 - name: QA Wolf
   url: https://www.qawolf.com/
   description: End-to-end automated QA testing delivered as a managed service.
@@ -183,9 +191,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: qa-wolf
+  in_network: true
+  is_api_provider: true
+  slug: qa-wolf
+  matched_by: domain
 - name: Motion
   url: https://www.usemotion.com/
   description: AI project management and calendar tool that automatically plans and schedules work.
@@ -193,9 +202,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: motion
+  slug: motion
+  matched_by: name-slug
 - name: Klarity
   url: https://www.klarity.ai/
   description: AI-powered document process automation for accounting and compliance workflows.
@@ -203,9 +213,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: klarity
+  slug: klarity
+  matched_by: domain
 - name: Freed
   url: https://www.getfreed.ai/
   description: AI medical scribe that transcribes clinician visits and writes clinical notes.
@@ -246,9 +257,10 @@ companies:
   stage: seed
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: monto
+  slug: monto
+  matched_by: domain
 - name: Tavus
   url: https://www.tavus.io/
   description: AI video platform for generating personalized digital humans and conversational video.
@@ -278,9 +290,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: regieai
+  slug: regieai
+  matched_by: domain
 - name: Viz.ai
   url: https://www.viz.ai/
   description: AI-powered care coordination that detects disease and triages patients from medical imaging.
@@ -288,9 +301,10 @@ companies:
   stage: growth
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vizai
+  slug: vizai
+  matched_by: domain
 - name: Papaya Global
   url: https://www.papayaglobal.com/
   description: Global workforce payroll and payments platform.
@@ -309,9 +323,10 @@ companies:
   stage: growth
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: observeai
+  slug: observe-ai
+  matched_by: domain
 - name: Airspace Technologies
   url: https://www.airspace.com/
   description: Tech-enabled logistics for time-critical and mission-critical shipments.
@@ -319,9 +334,10 @@ companies:
   stage: growth
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: airspace-technologies
+  in_network: true
+  is_api_provider: true
+  slug: airspace-technologies
+  matched_by: domain
 - name: BigID
   url: https://bigid.com/
   description: Data security, privacy, and governance platform for discovering and managing sensitive
@@ -363,9 +379,10 @@ companies:
   stage: growth
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: locus-robotics
+  slug: locusrobotics
+  matched_by: domain
 - name: Solvvy
   url: https://solvvy.com/
   description: Conversational AI and self-service support automation platform.
@@ -373,9 +390,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://www.scalevp.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solvvy
+  slug: solvvy
+  matched_by: domain
 - name: Motive
   url: https://gomotive.com/
   description: AI-powered fleet management and physical operations platform (formerly KeepTruckin).
