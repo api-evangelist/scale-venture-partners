@@ -4,7 +4,7 @@ source: https://www.scalevp.com/portfolio
 summary:
   portfolio_total: 117
   in_network: 88
-  api_providers: 42
+  api_providers: 43
   missing: 29
   stubs_created: 0
 companies:
@@ -485,19 +485,23 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: name-slug
+  x-url-candidate: https://allyo.io/en
 - name: Applause
   source: https://www.scalevp.com/portfolio/applause
   x-added: '2026-10-18'
   suggested_slug: applause
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.applause.com/
 - name: AppOmni
   source: https://www.scalevp.com/portfolio/appomni
   x-added: '2026-10-18'
   slug: appomni
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://appomni.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Apteligent
   source: https://www.scalevp.com/portfolio/apteligent
   x-added: '2026-10-18'
@@ -511,14 +515,18 @@ companies:
   slug: archipelago
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.onarchipelago.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Aviso
   source: https://www.scalevp.com/portfolio/aviso
   x-added: '2026-10-18'
   slug: aviso
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.aviso.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Bizible
   source: https://www.scalevp.com/portfolio/bizible
   x-added: '2026-10-18'
@@ -531,6 +539,7 @@ companies:
   suggested_slug: boundary
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://boundarycreative.co.uk/
 - name: BrightRoll
   source: https://www.scalevp.com/portfolio/brightroll
   x-added: '2026-10-18'
@@ -544,19 +553,23 @@ companies:
   suggested_slug: chef
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://chef.com
 - name: ClearVector
   source: https://www.scalevp.com/portfolio/clearvector
   x-added: '2026-10-18'
   slug: clearvector
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.clearvector.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: CloudHealth Technologies
   source: https://www.scalevp.com/portfolio/cloudhealth-technologies
   x-added: '2026-10-18'
   suggested_slug: cloudhealth-technologies
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://cloudhealth.com
 - name: Cognata
   source: https://www.scalevp.com/portfolio/cognata
   x-added: '2026-10-18'
@@ -569,13 +582,16 @@ companies:
   slug: comet
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.comet.com/site/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cortex
   source: https://www.scalevp.com/portfolio/cortex
   x-added: '2026-10-18'
   suggested_slug: cortex
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.cortex.io/
 - name: CyberGRX
   source: https://www.scalevp.com/portfolio/cybergrx
   x-added: '2026-10-18'
@@ -595,41 +611,52 @@ companies:
   suggested_slug: datasift
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.datasift.ai/
 - name: DataStax
   source: https://www.scalevp.com/portfolio/datastax
   x-added: '2026-10-18'
-  slug: datastax
+  slug: ibm
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ibm.com/products/datastax
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: DemandBase
   source: https://www.scalevp.com/portfolio/demandbase
   x-added: '2026-10-18'
   slug: demandbase
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.demandbase.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: DialPad
   source: https://www.scalevp.com/portfolio/dialpad
   x-added: '2026-10-18'
   slug: dialpad
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.dialpad.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Dusty Robotics
   source: https://www.scalevp.com/portfolio/dusty-robotics
   x-added: '2026-10-18'
   slug: dusty-robotics
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.dustyrobotics.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Esper
   source: https://www.scalevp.com/portfolio/esper
   x-added: '2026-10-18'
   slug: esper
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.esper.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: ExactTarget
   source: https://www.scalevp.com/portfolio/exacttarget
   x-added: '2026-10-18'
@@ -642,7 +669,9 @@ companies:
   slug: extole
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.extole.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Flatfile
   source: https://www.scalevp.com/portfolio/flatfile
   x-added: '2026-10-18'
@@ -656,38 +685,46 @@ companies:
   suggested_slug: generalist
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.generalist.com/
 - name: HUMAN
   source: https://www.scalevp.com/portfolio/human
   x-added: '2026-10-18'
   suggested_slug: human
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://human.ai
 - name: Humans&
   source: https://www.scalevp.com/portfolio/humans
   x-added: '2026-10-18'
   suggested_slug: humans-and
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://humans.io
 - name: Lever
   source: https://www.scalevp.com/portfolio/lever
   x-added: '2026-10-18'
   slug: lever
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.lever.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Loops
   source: https://www.scalevp.com/portfolio/loops
   x-added: '2026-10-18'
   slug: loops
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://loops.so/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Oxipital AI
   source: https://www.scalevp.com/portfolio/oxipital-ai
   x-added: '2026-10-18'
   suggested_slug: oxipital-ai
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.oxipitalai.com/
 - name: OM1
   source: https://www.scalevp.com/portfolio/om1
   x-added: '2026-10-18'
@@ -709,13 +746,16 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: name-slug
+  x-url-candidate: https://onelogin.ai
 - name: Pantheon
   source: https://www.scalevp.com/portfolio/pantheon
   x-added: '2026-10-18'
   slug: pantheon
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://pantheon.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: PeopleMatter
   source: https://www.scalevp.com/portfolio/peoplematter
   x-added: '2026-10-18'
@@ -735,32 +775,39 @@ companies:
   suggested_slug: permitio
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://permitio.ai
 - name: Plus One Robotics
   source: https://www.scalevp.com/portfolio/plus-one-robotics
   x-added: '2026-10-18'
   slug: plus-one-robotics
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.plusonerobotics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Prime Security
   source: https://www.scalevp.com/portfolio/prime-security
   x-added: '2026-10-18'
   suggested_slug: prime-security
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.primesecurity.com/
 - name: ProcessUnity
   source: https://www.scalevp.com/portfolio/process-unity
   x-added: '2026-10-18'
   suggested_slug: processunity
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.processunity.com/
 - name: Proscia
   source: https://www.scalevp.com/portfolio/proscia
   x-added: '2026-10-18'
   slug: proscia
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://proscia.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Proxy
   source: https://www.scalevp.com/portfolio/proxy
   x-added: '2026-10-18'
@@ -768,34 +815,43 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: name-slug
+  x-url-candidate: https://www.proxy.co/
 - name: PubNub
   source: https://www.scalevp.com/portfolio/pubnub
   x-added: '2026-10-18'
   slug: pubnub
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.pubnub.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Realm
   source: https://www.scalevp.com/portfolio/realm
   x-added: '2026-10-18'
   slug: realm
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://realmhome.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Rillet
   source: https://www.scalevp.com/portfolio/rillet
   x-added: '2026-10-18'
   slug: rillet
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.rillet.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: RingCentral
   source: https://www.scalevp.com/portfolio/ringcentral
   x-added: '2026-10-18'
   slug: ringcentral
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ringcentral.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Root Insurance
   source: https://www.scalevp.com/portfolio/root-insurance
   x-added: '2026-10-18'
@@ -808,14 +864,18 @@ companies:
   slug: rose-rocket
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.roserocket.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Sailthru
   source: https://www.scalevp.com/portfolio/sailthru
   x-added: '2026-10-18'
   slug: sailthru
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.zetaglobal.com/sailthru/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Scout RFP
   source: https://www.scalevp.com/portfolio/scout-rfp
   x-added: '2026-10-18'
@@ -828,20 +888,25 @@ companies:
   slug: socure
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.socure.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Spot AI
   source: https://www.scalevp.com/portfolio/spot-ai
   x-added: '2026-10-18'
   slug: spot-ai
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.spot.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Spruce
   source: https://www.scalevp.com/portfolio/spruce
   x-added: '2026-10-18'
   suggested_slug: spruce
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://sprucehealth.com:443/
 - name: Stormpath
   source: https://www.scalevp.com/portfolio/stormpath
   x-added: '2026-10-18'
@@ -867,41 +932,52 @@ companies:
   slug: techsee
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://techsee.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tetrate
   source: https://www.scalevp.com/portfolio/tetrate
   x-added: '2026-10-18'
   slug: tetrate
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tetrate.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Textio
   source: https://www.scalevp.com/portfolio/textio
   x-added: '2026-10-18'
   slug: textio
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://textio.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Thatch
   source: https://www.scalevp.com/portfolio/thatch
   x-added: '2026-10-18'
   suggested_slug: thatch
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://thatch.com
 - name: Thread AI
   source: https://www.scalevp.com/portfolio/thread-ai
   x-added: '2026-10-18'
   slug: thread-ai
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.threadai.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Threat Stack
   source: https://www.scalevp.com/portfolio/threat-stack
   x-added: '2026-10-18'
-  slug: threat-stack
+  slug: f5
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
+  url: https://www.f5.com/glossary/threat-stack
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Treasure Data
   source: https://www.scalevp.com/portfolio/treasure-data
   x-added: '2026-10-18'
@@ -915,7 +991,9 @@ companies:
   slug: unbabel
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://unbabel.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Unifi
   source: https://www.scalevp.com/portfolio/unifi
   x-added: '2026-10-18'
@@ -923,6 +1001,7 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: name-slug
+  x-url-candidate: https://unifi.com
 - name: Upsolver
   source: https://www.scalevp.com/portfolio/upsolver
   x-added: '2026-10-18'
@@ -936,19 +1015,23 @@ companies:
   suggested_slug: vantage
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.vantage.com/
 - name: VergeSense
   source: https://www.scalevp.com/portfolio/vergesense
   x-added: '2026-10-18'
   slug: vergesense
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.vergesense.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Verusen
   source: https://www.scalevp.com/portfolio/verusen
   x-added: '2026-10-18'
   suggested_slug: verusen
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://verusen.com
 - name: Vitrue
   source: https://www.scalevp.com/portfolio/vitrue
   x-added: '2026-10-18'
@@ -961,10 +1044,13 @@ companies:
   suggested_slug: namespace
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://namespace.com
 - name: Narvar
   source: https://www.scalevp.com/portfolio/narvar
   x-added: '2026-10-18'
   slug: narvar
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://corp.narvar.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
