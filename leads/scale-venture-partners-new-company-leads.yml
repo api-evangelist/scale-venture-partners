@@ -10,7 +10,7 @@ leads:
   source: https://www.scalevp.com/portfolio
   stub_created: false
 - name: Applause
-  url: ''
+  url: https://www.applause.com/
   suggested_slug: applause
   sector: ''
   source_vc: scale-venture-partners
@@ -50,13 +50,6 @@ leads:
   sector: ''
   source_vc: scale-venture-partners
   source: https://www.scalevp.com/portfolio/cognata
-  stub_created: false
-- name: Cortex
-  url: ''
-  suggested_slug: cortex
-  sector: ''
-  source_vc: scale-venture-partners
-  source: https://www.scalevp.com/portfolio/cortex
   stub_created: false
 - name: Datagen
   url: https://datagen.tech/
@@ -101,7 +94,7 @@ leads:
   source: https://www.scalevp.com/portfolio/humans
   stub_created: false
 - name: Oxipital AI
-  url: ''
+  url: https://www.oxipitalai.com/
   suggested_slug: oxipital-ai
   sector: ''
   source_vc: scale-venture-partners
@@ -128,26 +121,12 @@ leads:
   source_vc: scale-venture-partners
   source: https://www.scalevp.com/portfolio/prime-security
   stub_created: false
-- name: ProcessUnity
-  url: ''
-  suggested_slug: processunity
-  sector: ''
-  source_vc: scale-venture-partners
-  source: https://www.scalevp.com/portfolio/process-unity
-  stub_created: false
 - name: Scout RFP
   url: ''
   suggested_slug: scout-rfp
   sector: ''
   source_vc: scale-venture-partners
   source: https://www.scalevp.com/portfolio/scout-rfp
-  stub_created: false
-- name: Spruce
-  url: ''
-  suggested_slug: spruce
-  sector: ''
-  source_vc: scale-venture-partners
-  source: https://www.scalevp.com/portfolio/spruce
   stub_created: false
 - name: Stormpath
   url: ''
@@ -163,13 +142,6 @@ leads:
   source_vc: scale-venture-partners
   source: https://www.scalevp.com/portfolio/talkiq
   stub_created: false
-- name: Thatch
-  url: ''
-  suggested_slug: thatch
-  sector: ''
-  source_vc: scale-venture-partners
-  source: https://www.scalevp.com/portfolio/thatch
-  stub_created: false
 - name: Vantage
   url: ''
   suggested_slug: vantage
@@ -178,7 +150,7 @@ leads:
   source: https://www.scalevp.com/portfolio/vantage
   stub_created: false
 - name: Verusen
-  url: ''
+  url: https://verusen.com
   suggested_slug: verusen
   sector: ''
   source_vc: scale-venture-partners

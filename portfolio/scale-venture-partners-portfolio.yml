@@ -3,9 +3,9 @@ method: searched
 source: https://www.scalevp.com/portfolio
 summary:
   portfolio_total: 117
-  in_network: 89
-  api_providers: 44
-  missing: 28
+  in_network: 93
+  api_providers: 47
+  missing: 24
   stubs_created: 0
 companies:
 - name: GC AI
@@ -492,7 +492,8 @@ companies:
   suggested_slug: applause
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://www.applause.com/
+  url: https://www.applause.com/
+  x-url-source: web check 2026-10-18 (confirmed)
 - name: AppOmni
   source: https://www.scalevp.com/portfolio/appomni
   x-added: '2026-10-18'
@@ -539,7 +540,7 @@ companies:
   suggested_slug: boundary
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://boundarycreative.co.uk/
+  x-url-rejected: https://boundarycreative.co.uk/
 - name: BrightRoll
   source: https://www.scalevp.com/portfolio/brightroll
   x-added: '2026-10-18'
@@ -553,7 +554,7 @@ companies:
   suggested_slug: chef
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://chef.com
+  x-url-rejected: https://chef.com
 - name: ClearVector
   source: https://www.scalevp.com/portfolio/clearvector
   x-added: '2026-10-18'
@@ -569,7 +570,7 @@ companies:
   suggested_slug: cloudhealth-technologies
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://cloudhealth.com
+  x-url-rejected: https://cloudhealth.com
 - name: Cognata
   source: https://www.scalevp.com/portfolio/cognata
   x-added: '2026-10-18'
@@ -588,10 +589,12 @@ companies:
 - name: Cortex
   source: https://www.scalevp.com/portfolio/cortex
   x-added: '2026-10-18'
-  suggested_slug: cortex
-  in_network: false
-  is_api_provider: false
-  x-url-candidate: https://www.cortex.io/
+  in_network: true
+  is_api_provider: true
+  url: https://www.cortex.io/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: cortex-idp
+  matched_by: domain
 - name: CyberGRX
   source: https://www.scalevp.com/portfolio/cybergrx
   x-added: '2026-10-18'
@@ -613,7 +616,7 @@ companies:
   suggested_slug: datasift
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://www.datasift.ai/
+  x-url-rejected: https://www.datasift.ai/
 - name: DataStax
   source: https://www.scalevp.com/portfolio/datastax
   x-added: '2026-10-18'
@@ -687,7 +690,7 @@ companies:
   suggested_slug: generalist
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://www.generalist.com/
+  x-url-rejected: https://www.generalist.com/
 - name: HUMAN
   source: https://www.scalevp.com/portfolio/human
   x-added: '2026-10-18'
@@ -726,7 +729,8 @@ companies:
   suggested_slug: oxipital-ai
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://www.oxipitalai.com/
+  url: https://www.oxipitalai.com/
+  x-url-source: web check 2026-10-18 (confirmed)
 - name: OM1
   source: https://www.scalevp.com/portfolio/om1
   x-added: '2026-10-18'
@@ -797,10 +801,12 @@ companies:
 - name: ProcessUnity
   source: https://www.scalevp.com/portfolio/process-unity
   x-added: '2026-10-18'
-  suggested_slug: processunity
-  in_network: false
+  in_network: true
   is_api_provider: false
-  x-url-candidate: https://www.processunity.com/
+  url: https://www.processunity.com/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: cybergrx
+  matched_by: domain
 - name: Proscia
   source: https://www.scalevp.com/portfolio/proscia
   x-added: '2026-10-18'
@@ -908,10 +914,12 @@ companies:
 - name: Spruce
   source: https://www.scalevp.com/portfolio/spruce
   x-added: '2026-10-18'
-  suggested_slug: spruce
-  in_network: false
-  is_api_provider: false
-  x-url-candidate: https://sprucehealth.com:443/
+  in_network: true
+  is_api_provider: true
+  url: https://sprucehealth.com/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: spruce-health
+  matched_by: domain
 - name: Stormpath
   source: https://www.scalevp.com/portfolio/stormpath
   x-added: '2026-10-18'
@@ -961,10 +969,12 @@ companies:
 - name: Thatch
   source: https://www.scalevp.com/portfolio/thatch
   x-added: '2026-10-18'
-  suggested_slug: thatch
-  in_network: false
-  is_api_provider: false
-  x-url-candidate: https://thatch.com
+  in_network: true
+  is_api_provider: true
+  url: https://thatch.com
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: thatch-health
+  matched_by: domain
 - name: Thread AI
   source: https://www.scalevp.com/portfolio/thread-ai
   x-added: '2026-10-18'
@@ -1020,7 +1030,7 @@ companies:
   suggested_slug: vantage
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://www.vantage.com/
+  x-url-rejected: https://www.vantage.com/
 - name: VergeSense
   source: https://www.scalevp.com/portfolio/vergesense
   x-added: '2026-10-18'
@@ -1036,7 +1046,8 @@ companies:
   suggested_slug: verusen
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://verusen.com
+  url: https://verusen.com
+  x-url-source: web check 2026-10-18 (confirmed)
 - name: Vitrue
   source: https://www.scalevp.com/portfolio/vitrue
   x-added: '2026-10-18'
@@ -1049,7 +1060,7 @@ companies:
   suggested_slug: namespace
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://namespace.com
+  x-url-rejected: https://namespace.com
 - name: Narvar
   source: https://www.scalevp.com/portfolio/narvar
   x-added: '2026-10-18'
