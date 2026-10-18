@@ -3,9 +3,9 @@ method: searched
 source: https://www.scalevp.com/portfolio
 summary:
   portfolio_total: 117
-  in_network: 88
-  api_providers: 43
-  missing: 29
+  in_network: 89
+  api_providers: 44
+  missing: 28
   stubs_created: 0
 companies:
 - name: GC AI
@@ -605,6 +605,8 @@ companies:
   suggested_slug: datagen
   in_network: false
   is_api_provider: false
+  url: https://datagen.tech/
+  x-url-source: web search 2026-10-18
 - name: DataSift
   source: https://www.scalevp.com/portfolio/datasift
   x-added: '2026-10-18'
@@ -855,9 +857,12 @@ companies:
 - name: Root Insurance
   source: https://www.scalevp.com/portfolio/root-insurance
   x-added: '2026-10-18'
-  suggested_slug: root-insurance
-  in_network: false
-  is_api_provider: false
+  in_network: true
+  is_api_provider: true
+  url: https://www.joinroot.com/
+  x-url-source: web search 2026-10-18
+  slug: root
+  matched_by: domain
 - name: Rose Rocket
   source: https://www.scalevp.com/portfolio/rose-rocket
   x-added: '2026-10-18'

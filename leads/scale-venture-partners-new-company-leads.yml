@@ -59,7 +59,7 @@ leads:
   source: https://www.scalevp.com/portfolio/cortex
   stub_created: false
 - name: Datagen
-  url: ''
+  url: https://datagen.tech/
   suggested_slug: datagen
   sector: ''
   source_vc: scale-venture-partners
@@ -134,13 +134,6 @@ leads:
   sector: ''
   source_vc: scale-venture-partners
   source: https://www.scalevp.com/portfolio/process-unity
-  stub_created: false
-- name: Root Insurance
-  url: ''
-  suggested_slug: root-insurance
-  sector: ''
-  source_vc: scale-venture-partners
-  source: https://www.scalevp.com/portfolio/root-insurance
   stub_created: false
 - name: Scout RFP
   url: ''
