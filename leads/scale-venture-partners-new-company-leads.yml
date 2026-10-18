@@ -1,4 +1,11 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: scale-venture-partners
-leads: []
+leads:
+- name: Motion
+  url: https://www.usemotion.com/
+  suggested_slug: usemotion-com
+  sector: b2b-software
+  source_vc: scale-venture-partners
+  source: https://www.scalevp.com/portfolio
+  stub_created: false

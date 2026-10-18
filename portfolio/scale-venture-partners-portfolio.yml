@@ -3,9 +3,9 @@ method: searched
 source: https://www.scalevp.com/portfolio
 summary:
   portfolio_total: 42
-  in_network: 42
-  api_providers: 20
-  missing: 0
+  in_network: 41
+  api_providers: 21
+  missing: 1
   stubs_created: 0
 companies:
 - name: GC AI
@@ -202,10 +202,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.scalevp.com/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: motion
-  matched_by: name-slug
+  x-name-collision: motion
+  suggested_slug: usemotion-com
 - name: Klarity
   url: https://www.klarity.ai/
   description: AI-powered document process automation for accounting and compliance workflows.
@@ -324,8 +324,8 @@ companies:
   status: active
   source: https://www.scalevp.com/portfolio
   in_network: true
-  is_api_provider: false
-  slug: observe-ai
+  is_api_provider: true
+  slug: observeai
   matched_by: domain
 - name: Airspace Technologies
   url: https://www.airspace.com/
@@ -381,7 +381,7 @@ companies:
   source: https://www.scalevp.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: locusrobotics
+  slug: locus-robotics
   matched_by: domain
 - name: Solvvy
   url: https://solvvy.com/
